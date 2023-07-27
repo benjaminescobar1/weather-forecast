@@ -6,21 +6,18 @@
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Weather Forecast</title>
 </head>
-
+<!--Main page body-->
 <body>
     <section class="container">
         <h1>Weather Forecast</h1>
-        <form section="search-form">
-            <input type="text" id="city-input" placeholder="Enter city name">
-            <button type= "submit">Search</button>
-        </form>
-    <section class="current-weather"></section>
-    <section class="forecast"></section>
-    <section class="search-history"></section>
-        <h2> Search History</h2>
-        <ul class= "history-list"></ul>
+        <article class="search">
+            <input type="text" id="cityInput" placeholder="Enter City">
+            <button onclick="searchCity()">Search</button>
+        </article>
+        <article id="weatherInfo"></article>
+        <article id="searchHistory"></article>
     </section>
-    
+ <!--Adds JS to HTML-->   
     <script src="./assets/js/script.js"></script>  
 </body>
 </html>
