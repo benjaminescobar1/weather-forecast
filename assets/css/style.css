@@ -53,6 +53,10 @@ body {
   .search-history {
     margin-top: 40px;
   }
+
+  #searchHistory ul li {
+    cursor: pointer;
+  }
   
   /* forecast style */
   .forecast-item {
