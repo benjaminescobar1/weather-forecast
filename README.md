@@ -7,6 +7,7 @@ https://benjaminescobar1.github.io/weather-forecast/
 
 ## Screenshot
 
+![weather forecast deployed](https://github.com/benjaminescobar1/weather-forecast/assets/135399618/a39321b6-53bc-458e-858f-b7fcac4f3e6e)
 
 
 ## License
